@@ -1,10 +1,50 @@
-.color-1{
-    color :indianred;
+.title{
+    color:indigo;
+    text-shadow: 2px 2px darkslateblue;
+    font-size:80px;
 }
+.contexttitle{
+    color:darkslateblue;
+    font-size:40px;
+    font-weight:bold;
+    text-decoration: underline;
+}
+.outer{
+    
+    height:200px;
+    overflow:hidden;
+    background-color:aquamarine;
+    visibility: hidden;
+}
+.image{
+    background-image: url(C:\Users\user\Pictures\KakaoTalk_20230330_145955245.jpg);
+    background-size:cover;
+    position:relative;
+    height:50px;
+    top:100px;
+    left:100px;
 
-.color-2{
+}
+.myname{
     font-size:150%;
     font-weight: bold;
     
     color :lightseagreen;
+    text-shadow: 2px 2px lightblue;
+}
+ul > li{
+    list-style: circle;
+}
+.boxforcontext{
+    display:inline-block;
+    position: relative;
+    width:80%;
+    height:80%;
+    background-color: rgb(192, 199, 207);
+    border:dashed skyblue;
+    margin:50px;
+    padding: 20px;
+    
+   
+
 }
